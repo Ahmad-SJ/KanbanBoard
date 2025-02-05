@@ -1,0 +1,52 @@
+.root {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px #00000021, -1px -1px 2px #00000021;
+
+  /* color: #000; */
+  background-color: #cfddf5;
+
+  min-height: 90px;
+
+  cursor: pointer;
+
+  position: relative;
+}
+
+.remove_button {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: +1;
+  width: 16px;
+  height: 6px;
+  /* background-color: #f44336; */
+  /* padding: 0.5rem 1rem; */
+  border-radius: 3px;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.507);
+  /* border: 1px solid #727272; */
+  /* box-shadow: 1px 1px 1px #00000020, -1px -1px 1px #00000020; */
+  background-color: #2e4c61c7;
+  border: none;
+}
+
+.text {
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.contextButton {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}

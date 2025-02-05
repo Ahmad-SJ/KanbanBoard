@@ -1,0 +1,37 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.message {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: center;
+}
+
+.button {
+  background-color: #f3f3f3;
+  border: none;
+  box-shadow: 1px 1px 2px #00000021, -1px -1px 2px #00000021;
+  border-radius: 10px;
+  margin: 0px 8px;
+  padding: 7px;
+}
+
+.button:hover {
+  background-color: #e3e3e3;
+}
+
+.button:active {
+  background-color: #d3d3d3;
+}

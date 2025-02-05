@@ -1,0 +1,18 @@
+.trigger_button {
+  background-color: #2e4c61c7;
+  color: white;
+  /* font-weight: 300; */
+  border-radius: 7px;
+  border: none;
+  box-shadow: 1px 1px 2px #00000021, -1px -1px 2px #00000021;
+  /* border: 1px solid #ccc; */
+  margin: 0rem 1rem;
+  text-align: center;
+  width: 28px;
+  height: 28px;
+}
+
+.trigger_button:hover {
+  /* border: 1px solid #0000002d; */
+  background-color: #2e4c61f1;
+}

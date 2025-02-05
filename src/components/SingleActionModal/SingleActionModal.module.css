@@ -1,0 +1,46 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  row-gap: 16px;
+  min-width: 250px;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  column-gap: 12px;
+}
+
+.button {
+  background-color: #f3f3f3;
+  border: none;
+  box-shadow: 1px 1px 2px #00000021, -1px -1px 2px #00000021;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+.button:hover {
+  background-color: #e3e3e3;
+}
+
+.button:active {
+  background-color: #d3d3d3;
+}
+
+.input_div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  row-gap: 8px;
+}
+
+.input_div input {
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  height: 1.5rem;
+}

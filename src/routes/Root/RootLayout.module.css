@@ -1,0 +1,40 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  /* background-color: gray; */
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 1rem;
+  /* overflow: scroll; */
+  /* background-color: blue; */
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  background-color: #563385;
+  color: #fff;
+  box-shadow: 2px 2px 8px #ccc, -2px -2px 8px#ccc;
+  z-index: 1;
+  /* background-color: green; */
+}

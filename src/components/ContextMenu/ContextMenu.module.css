@@ -1,0 +1,55 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuButton {
+  background-color: transparent;
+  position: absolute;
+  font-size: x-large;
+  width: 32px;
+  height: 16px;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #2e4c61c7;
+  /* border: 1px solid black; */
+}
+
+.menuButton:hover {
+  background-color: #2e4c612c;
+}
+
+.menuButtonSpan {
+  position: absolute;
+  top: -13px;
+  right: 6px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.taskContextMenu {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+  width: max-content;
+  background-color: #f4f5f7;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px #00000021, -1px -1px 2px #00000021;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.contextMenuItem {
+  text-align: center;
+  padding: 5px 10px;
+}
+
+.contextMenuItem:hover {
+  background-color: #eee;
+}
